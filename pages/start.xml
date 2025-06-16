@@ -7,8 +7,10 @@
     y="center"
     font-size="70"
   />
-
-  
+ <agent id="pontuação=0" />
+<fab-if when="$contador=1">
+  <agent id="pontuação+1"
+    />
 
   <agent
     id="next_page_text"
