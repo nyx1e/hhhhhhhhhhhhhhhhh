@@ -10,12 +10,12 @@
   <agent
       id="btn-invisible"
       text=" "
-      width="32"
-      height="32"
+      width="400"
+      height="400"
       on_click="set(contador, $contador + 1)"
     />
  <agent id="pontuação=0" />
-<fab-if when="$contador=1">
+<fab-if when="$contador = 1">
   <agent id="pontuação+1"
     />
 
