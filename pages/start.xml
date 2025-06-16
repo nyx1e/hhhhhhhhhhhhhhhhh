@@ -10,14 +10,22 @@
   <agent
       id="btn-invisible"
       text=" "
-      width="400"
-      height="400"
+      x="400"
+      y="400"
+      width="30"
+      height="30"
       on_click="set(contador, $contador + 1)"
     />
- <agent id="pontuação=0" />
-<fab-if when="$contador = 1">
-  <agent id="pontuação+1"
-    />
+ <fab-if when="$contador = 1">
+    <agent
+      id="pontuacao"
+      text="Hello World"
+     color="white"
+   x="center"
+    y="center"
+    font-size="70"
+
+  
 
   <agent
     id="next_page_text"
