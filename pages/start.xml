@@ -19,13 +19,13 @@
  <fab-if when="$contador = 1">
     <agent
       id="pontuacao"
-      text="Hello World"
-     color="white"
-   x="center"
-    y="center"
-    font-size="70"
-
-  
+      text="+1"
+      color="white"
+      x="90"
+      y="90"
+      font-size="70"
+      on_click="set($pontuacao + 1)"/>
+</fab-if>
 
   <agent
     id="next_page_text"
